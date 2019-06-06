@@ -1,0 +1,10 @@
+<div>
+  <h1>Coding Standards Search</h1>
+  <div>
+    <label>Select Language</label>
+    <select (change)="selectLanguage($event)">
+        <option *ngFor="let language of languages" value="language">{{language}}</option>
+    </select>
+  </div>
+
+</div>
